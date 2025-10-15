@@ -69,3 +69,18 @@ Key benefits include:
 - Improved accessibility: Responsive design ensures inclusivity across all devices.
 
 - Increased conversions: A simple checkout flow enhances the likelihood of completed bookings.
+
+<h2>👥 Project Roles and Responsibilities</h2>
+
+A successful project requires clear roles and responsibilities to ensure smooth collaboration, accountability, and timely delivery. Each team member plays a critical part in building a fully functional and high-quality Airbnb Clone platform.
+
+Project Roles and Responsibilities
+Role	Responsibilities
+Project Manager       	Oversees timeline, coordinates team, manages deliverables
+Frontend Developers   	Implements UI components, ensures responsive design
+Backend Developers    	Builds APIs, manages database, implements business logic
+Designers	              Creates mockups, maintains design system, ensures UX quality
+QA/Testers	            Writes test cases, performs testing, reports bugs
+DevOps Engineers      	Manages deployment, CI/CD pipeline, server infrastructure
+Product Owner	          Defines requirements, prioritizes features, represents stakeholders
+Scrum Master	          Facilitates agile processes, removes blockers, organizes meetings
