@@ -113,11 +113,11 @@ A successful project requires clear roles and responsibilities to ensure smooth 
 
 Project Roles and Responsibilities
 
-<b>Project Manager</b> - Oversees timeline, coordinates team, manages deliverables
-Frontend Developers   	Implements UI components, ensures responsive design
-Backend Developers    	Builds APIs, manages database, implements business logic
-Designers	              Creates mockups, maintains design system, ensures UX quality
-QA/Testers	            Writes test cases, performs testing, reports bugs
-DevOps Engineers      	Manages deployment, CI/CD pipeline, server infrastructure
-Product Owner	          Defines requirements, prioritizes features, represents stakeholders
-Scrum Master	          Facilitates agile processes, removes blockers, organizes meetings
+<b>Project Manager</b> - Oversees timeline, coordinates team, manages deliverables <br>
+<b>Frontend Developers</b> - Implements UI components, ensures responsive design <br>
+<b>Backend Developers</b> - Builds APIs, manages database, implements business logic <br>
+<b>Designers</b> - Creates mockups, maintains design system, ensures UX quality <br>
+<b>QA/Testers</b>	- Writes test cases, performs testing, reports bugs <br>
+<b>DevOps Engineers</b> - Manages deployment, CI/CD pipeline, server infrastructure <br>
+<b>Product Owner</b> - Defines requirements, prioritizes features, represents stakeholders <br>
+<b>Scrum Master</b>	- Facilitates agile processes, removes blockers, organizes meetings <br>
