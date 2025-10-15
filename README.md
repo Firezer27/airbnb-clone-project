@@ -70,7 +70,44 @@ Key benefits include:
 
 - Increased conversions: A simple checkout flow enhances the likelihood of completed bookings.
 
-<h2>👥 Project Roles and Responsibilities</h2>
+<h2>2.More UI/UX Design Planning</h2>
+🎨 <b>Color Styles</b>
+
+The design follows a modern and clean visual identity inspired by Airbnb’s branding. The following color palette ensures consistency, accessibility, and brand recognition across all components and pages:
+
+<h3>Figma Design Specifications</h3>
+Color Styles:
+
+Primary: #FF5A5F
+Secondary: #008489
+Background: #FFFFFF
+Text: #222222
+Secondary Text: #717171
+Typography:
+
+Primary Font: Circular, Medium (500), 16px
+Headings: Circular, Bold (700), 24px-32px
+Secondary Text: Circular, Book (400), 14px
+
+🎯 Importance of Identifying Design Properties in Mockup Design
+
+Understanding and identifying the design properties in a mockup (such as colors, fonts, spacing, and layouts) is a critical step in creating a consistent and professional user interface.
+
+Why It’s Important:
+
+Consistency Across Components: Ensures that all pages follow the same style guidelines, creating a unified look and feel.
+
+Improved Developer Efficiency: Developers can easily translate Figma designs into clean, accurate frontend code without confusion.
+
+Enhanced User Experience: Consistent colors, typography, and spacing make the platform intuitive and visually appealing.
+
+Brand Identity: Maintains recognizable branding that helps users trust and relate to the platform.
+
+Collaboration: Designers and developers can communicate more effectively when design properties are clearly documented.
+
+Scalability: Enables future developers or designers to extend or modify the design without breaking the visual system.
+
+<h2>3.👥 Project Roles and Responsibilities</h2>
 
 A successful project requires clear roles and responsibilities to ensure smooth collaboration, accountability, and timely delivery. Each team member plays a critical part in building a fully functional and high-quality Airbnb Clone platform.
 
