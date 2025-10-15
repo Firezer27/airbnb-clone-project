@@ -112,8 +112,8 @@ Scalability: Enables future developers or designers to extend or modify the desi
 A successful project requires clear roles and responsibilities to ensure smooth collaboration, accountability, and timely delivery. Each team member plays a critical part in building a fully functional and high-quality Airbnb Clone platform.
 
 Project Roles and Responsibilities
-Role	Responsibilities
-Project Manager       	Oversees timeline, coordinates team, manages deliverables
+
+<b>Project Manager</b> - Oversees timeline, coordinates team, manages deliverables
 Frontend Developers   	Implements UI components, ensures responsive design
 Backend Developers    	Builds APIs, manages database, implements business logic
 Designers	              Creates mockups, maintains design system, ensures UX quality
