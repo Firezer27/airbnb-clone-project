@@ -25,12 +25,14 @@ Git and GitHub for version control and collaboration
 
 Design Tools: Figma for UI/UX design
 
-<h2>🎨1- UI/UX Design Planning</h2>
-<h3>🧭 Design Goals</h3>
+
+<h2>🎨1. UI/UX Design Planning</h2>
+
+  <h3>🧭 Design Goals</h3>
 
 The primary goal of the UI/UX design is to create an intuitive and visually consistent booking experience that enhances user satisfaction and engagement. The design focuses on clarity, ease of navigation, and responsiveness across devices.
 
-Key Design Goals:
+  Key Design Goals:
 
 - Create a simple and intuitive booking flow from property browsing to checkout.
 
@@ -48,13 +50,13 @@ Key Design Goals:
 - Secure checkout process
 - User authentication
 
-<h3>🏠 Primary Pages</h3>
+ <h3>🏠 Primary Pages</h3>
 Page	                     Description
 Property Listing View	    Grid display of available properties with filters
 Listing Detailed View    	Complete property details with images and booking form
 Simple Checkout View    	Streamlined payment and booking confirmation
 
-<h3>💡 Importance of User-Friendly Design</h3>
+ <h3>💡 Importance of User-Friendly Design</h3>
 
 A user-friendly design is the foundation of a successful booking platform. It minimizes friction, improves conversion rates, and builds user trust. Clear layouts, readable typography, and interactive feedback help guide users smoothly from browsing to booking.
 
