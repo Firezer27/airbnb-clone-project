@@ -1,12 +1,12 @@
 # airbnb-clone-project
-<h1>0. Project Initialization</h1>
-🏡 Project Overview
+<h2>0. Project Initialization</h2>
+<h3>🏡 Project Overview</h3>
 
 The Airbnb Clone Project is a full-stack web application inspired by the popular accommodation booking platform Airbnb. The goal is to develop a functional and user-friendly booking platform where users can browse available properties, view detailed listings, and make secure bookings.
 
 The project focuses on implementing a responsive UI, building a scalable backend API, and integrating both parts into a complete web solution. It also demonstrates real-world development workflows, including version control, documentation, and team collaboration.
 
-🎯 Project Goals
+h3>🎯 Project Goals</h3>
 
 - Build a full-stack accommodation booking platform.
 
