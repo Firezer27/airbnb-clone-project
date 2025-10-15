@@ -44,17 +44,17 @@ The primary goal of the UI/UX design is to create an intuitive and visually cons
 
 - Provide clear navigation and easy access to essential features.
 
-  Key Features
+  <h3>Key Features</h3>
 - Property search and filtering
 - Detailed property viewing
 - Secure checkout process
 - User authentication
 
  <h3>🏠 Primary Pages</h3>
-Page	                     Description
-Property Listing View	    Grid display of available properties with filters
-Listing Detailed View    	Complete property details with images and booking form
-Simple Checkout View    	Streamlined payment and booking confirmation
+
+<b>Property Listing View<b>	- Grid display of available properties with filters<br>
+<b>Listing Detailed View<b> - Complete property details with images and booking form<br>
+<b>Simple Checkout View<b>  - Streamlined payment and booking confirmation<br>
 
  <h3>💡 Importance of User-Friendly Design</h3>
 
@@ -76,36 +76,38 @@ Key benefits include:
 The design follows a modern and clean visual identity inspired by Airbnb’s branding. The following color palette ensures consistency, accessibility, and brand recognition across all components and pages:
 
 <h3>Figma Design Specifications</h3>
-Color Styles:
 
-Primary: #FF5A5F
-Secondary: #008489
-Background: #FFFFFF
-Text: #222222
-Secondary Text: #717171
-Typography:
+<b>Color Styles:<b>
 
-Primary Font: Circular, Medium (500), 16px
-Headings: Circular, Bold (700), 24px-32px
-Secondary Text: Circular, Book (400), 14px
+Primary: #FF5A5F<br>
+Secondary: #008489<br>
+Background: #FFFFFF<br>
+Text: #222222<br>
+Secondary Text: #717171<br>
 
-🎯 Importance of Identifying Design Properties in Mockup Design
+<b>Typography:<b>
+
+Primary Font: Circular, Medium (500), 16px<br>
+Headings: Circular, Bold (700), 24px-32px<br>
+Secondary Text: Circular, Book (400), 14px<br>
+
+🎯 <h3>Importance of Identifying Design Properties in Mockup Design</h3>
 
 Understanding and identifying the design properties in a mockup (such as colors, fonts, spacing, and layouts) is a critical step in creating a consistent and professional user interface.
 
-Why It’s Important:
+<h3>Why It’s Important</h3>:
 
-Consistency Across Components: Ensures that all pages follow the same style guidelines, creating a unified look and feel.
+<b>Consistency Across Components:<b> Ensures that all pages follow the same style guidelines, creating a unified look and feel.
 
-Improved Developer Efficiency: Developers can easily translate Figma designs into clean, accurate frontend code without confusion.
+<b>Improved Developer Efficiency:<b> Developers can easily translate Figma designs into clean, accurate frontend code without confusion.
 
-Enhanced User Experience: Consistent colors, typography, and spacing make the platform intuitive and visually appealing.
+<b>Enhanced User Experience:<b> Consistent colors, typography, and spacing make the platform intuitive and visually appealing.
 
-Brand Identity: Maintains recognizable branding that helps users trust and relate to the platform.
+<b>Brand Identity:<b> Maintains recognizable branding that helps users trust and relate to the platform.
 
-Collaboration: Designers and developers can communicate more effectively when design properties are clearly documented.
+<b>Collaboration:<b> Designers and developers can communicate more effectively when design properties are clearly documented.
 
-Scalability: Enables future developers or designers to extend or modify the design without breaking the visual system.
+<b>Scalability:<b> Enables future developers or designers to extend or modify the design without breaking the visual system.
 
 <h2>3.👥 Project Roles and Responsibilities</h2>
 
@@ -114,10 +116,50 @@ A successful project requires clear roles and responsibilities to ensure smooth 
 Project Roles and Responsibilities
 
 <b>Project Manager</b> - Oversees timeline, coordinates team, manages deliverables <br>
+
 <b>Frontend Developers</b> - Implements UI components, ensures responsive design <br>
+
 <b>Backend Developers</b> - Builds APIs, manages database, implements business logic <br>
+
 <b>Designers</b> - Creates mockups, maintains design system, ensures UX quality <br>
+
 <b>QA/Testers</b>	- Writes test cases, performs testing, reports bugs <br>
+
 <b>DevOps Engineers</b> - Manages deployment, CI/CD pipeline, server infrastructure <br>
+
 <b>Product Owner</b> - Defines requirements, prioritizes features, represents stakeholders <br>
+
 <b>Scrum Master</b>	- Facilitates agile processes, removes blockers, organizes meetings <br>
+
+
+<h2>🧩4. UI Component Patterns</h2>
+🏗️ Overview
+
+The Airbnb Clone project follows a component-based architecture, allowing each part of the user interface to be modular, reusable, and easy to maintain. This approach 
+
+improves scalability and simplifies development by enabling developers to reuse common UI elements across different pages.
+
+<h3>🧱 Planned UI Components</h3>
+
+<b>1.Navbar</b><br>
+
+- Logo<br>
+- Search bar<br>
+- User navigation<br>
+- Responsive menu<br>
+
+<b>2.Property Card<b><br>
+
+- Property image<br>
+- Basic details (price, location, rating)<br>
+- Favorite button<br>
+- Responsive layout<br>
+
+<b>3.Footer</b><br>
+
+- Site links
+- Company information
+- Social media links
+- Copyright information
+  
+Each component will be designed for reusability and consistency across the application.
