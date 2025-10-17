@@ -75,7 +75,7 @@ Key benefits include:
   
   - Increased conversions: A simple checkout flow enhances the likelihood of completed bookings.
 
-<h2>2.More UI/UX Design Planning</h2>
+<h2>2. More UI/UX Design Planning</h2>
 
 🎨 <h3>Color Styles</h3>
 
@@ -187,17 +187,13 @@ Each component will be designed for reusability and consistency across the appli
 <h2>0. Project Initialization</h2>
 
 🏠 Airbnb Clone Project
-🚀 Overview
+
+   <h3>🚀 Overview</h3>
 
   The Airbnb Clone Project is a full-stack web application designed to replicate the core features of Airbnb — a leading online marketplace for lodging, property rentals, 
-  
-  and travel experiences.
-  
-  This project focuses primarily on backend development, emphasizing robust API design, secure user management, efficient database structures, and scalable deployment  
-  
-  practices.
+  and travel experiences.This project focuses primarily on backend development, emphasizing robust API design, secure user management, efficient database structures, and   scalable deployment practices.
 
-🏆 Project Goals
+ <h3>🏆 Project Goals</h3>
 
       - User Management: Secure system for user registration, authentication, and profile management.
       
@@ -211,34 +207,35 @@ Each component will be designed for reusability and consistency across the appli
   
       - Data Optimization: Ensure fast and efficient data retrieval with indexing and caching.
 
-  🛠️ Technology Stack
+  <h3>🛠️ Technology Stack</h3>
   
-    Category	Tools / Technologies
+    Category	                  Tools / Technologies
     
-    Backend Framework	Django, Django REST Framework
+    Backend Framework         	Django, Django REST Framework
     
-    Database	PostgreSQL
+    Database	                  PostgreSQL
     
-    API Query Language	GraphQL
+    API Query Language        	GraphQL
     
-    Asynchronous Tasks	Celery
+    Asynchronous Tasks        	Celery
     
-    Caching & Sessions	Redis
+    Caching & Sessions        	Redis
     
-    Containerization	Docker
+    Containerization          	Docker
     
-    CI/CD	GitHub Actions / Jenkins (for automation)
+    CI/CD	                     GitHub Actions / Jenkins (for automation)
 
 <h2>1. Team Roles and Responsibilities</h2>
 
-👥 Team Roles
+<h3>👥 Team Roles</h3>
 
 Effective collaboration is key to the success of the Airbnb Clone Project. Each team member contributes unique expertise to ensure the system is secure, scalable, and maintainable. Below are the key roles and their responsibilities, inspired by both the project overview and professional software development practices (as outlined by ITRexGroup).
 
-🧑‍💻 Backend Developer
+<b>🧑‍💻 Backend Developer</b>
 
 Responsibility:
-The Backend Developer is responsible for building and maintaining the server-side logic of the application. This includes developing API endpoints, integrating business logic, ensuring data validation, managing authentication and authorization, and optimizing performance. They also collaborate with the frontend team to ensure smooth API communication and data flow.
+
+  The Backend Developer is responsible for building and maintaining the server-side logic of the application. This includes developing API endpoints, integrating business logic, ensuring data validation, managing authentication and authorization, and optimizing performance. They also collaborate with the frontend team to ensure smooth API communication and data flow.
 
 Key Tasks:
 
@@ -252,24 +249,25 @@ Key Tasks:
 
 - Collaborate with Database Administrator to ensure efficient queries.
 
-🧩 Database Administrator (DBA)
+<b>🧩 Database Administrator (DBA)</b>
 
 Responsibility:
-The Database Administrator designs, manages, and optimizes the project’s database systems. They ensure data integrity, security, and performance through indexing, normalization, and backup strategies.
+
+ The Database Administrator designs, manages, and optimizes the project’s database systems. They ensure data integrity, security, and performance through indexing, normalization, and backup strategies.
 
 Key Tasks:
 
-- Design relational database schema using PostgreSQL.
+ - Design relational database schema using PostgreSQL.
+ 
+ - Optimize queries and implement indexing for performance.
+ 
+ - Manage database migrations and backup policies.
+ 
+ - Ensure data consistency, normalization, and referential integrity.
+ 
+ - Support developers with database-related queries and reports.
 
-- Optimize queries and implement indexing for performance.
-
-- Manage database migrations and backup policies.
-
-- Ensure data consistency, normalization, and referential integrity.
-
-- Support developers with database-related queries and reports.
-
-⚙️ DevOps Engineer
+<h3>⚙️ DevOps Engineer</h3>
 
   Responsibility:
   The DevOps Engineer ensures the backend system is efficiently deployed, monitored, and scaled. They manage CI/CD pipelines, containerization, and infrastructure automation to maintain reliability and high availability.
@@ -286,34 +284,36 @@ Key Tasks:
   
   - Implement disaster recovery and backup strategies.
 
-🧪 Quality Assurance (QA) Engineer
+<h3>🧪 Quality Assurance (QA) Engineer</h3>
 
   Responsibility:
-  The QA Engineer ensures that the application meets quality standards through rigorous testing and validation. They verify that all features function as expected, identify
   
+  The QA Engineer ensures that the application meets quality standards through rigorous testing and validation. They verify that all features function as expected, identify
   bugs early, and guarantee a smooth user experience.
   
   Key Tasks:
   
-  - Develop and execute manual and automated test cases.
-  
-  - Conduct regression, performance, and security testing.
-  
-  - Report and track bugs using issue tracking tools (e.g., GitHub Issues).
-  
-  - Verify backend endpoints meet API documentation standards.
-  
-  - Collaborate closely with developers to resolve defects before deployment.
+   - Develop and execute manual and automated test cases.
+   
+   - Conduct regression, performance, and security testing.
+   
+   - Report and track bugs using issue tracking tools (e.g., GitHub Issues).
+   
+   - Verify backend endpoints meet API documentation standards.
+   
+   - Collaborate closely with developers to resolve defects before deployment.
 
 <h2>⚙️2. Technology Stack Overview</h2>
 
 The Airbnb Clone Project leverages a combination of powerful, modern technologies to ensure scalability, security, and performance. Each technology plays a specific role in building a reliable backend architecture that mirrors real-world production systems.
 
-🐍 Django
+<h3>🐍 Django</h3>
 
-Purpose:
-Django is a high-level Python web framework used to build the backend of the application. It provides a structured environment for developing scalable web services, managing models, and handling authentication and session management.
-In This Project:
+ Purpose:
+ 
+ Django is a high-level Python web framework used to build the backend of the application. It provides a structured environment for developing scalable web services, managing models, and handling authentication and session management.
+ 
+ In This Project:
 
   - Powers the main backend logic.
   
@@ -321,11 +321,13 @@ In This Project:
   
   - Provides built-in security features like CSRF protection and input validation.
 
-🔧 Django REST Framework (DRF)
+<h3>🔧 Django REST Framework (DRF)</h3>
 
 Purpose:
-An extension of Django used to create RESTful APIs efficiently and securely. DRF simplifies serialization, authentication, and permissions for API endpoints.
-In This Project:
+
+ An extension of Django used to create RESTful APIs efficiently and securely. DRF simplifies serialization, authentication, and permissions for API endpoints.
+ 
+ In This Project:
 
   - Handles CRUD operations for users, properties, bookings, and reviews.
   
@@ -333,9 +335,10 @@ In This Project:
   
   - Offers automatic API documentation via the OpenAPI standard.
 
-🗃️ PostgreSQL
+<h3>🗃️ PostgreSQL</h3>
 
 Purpose:
+
 A powerful open-source relational database management system known for reliability and advanced features like indexing, transactions, and data integrity.
 In This Project:
 
@@ -345,10 +348,12 @@ In This Project:
   
   - Works closely with Django ORM for database operations.
 
-🧩 GraphQL
+H3>🧩 GraphQL</h3>
 
 Purpose:
+
 A query language and runtime for APIs that allows clients to request exactly the data they need, reducing over-fetching and improving efficiency.
+
 In This Project:
 
   - Enables flexible and efficient querying of backend data.
@@ -357,9 +362,10 @@ In This Project:
   
   - Complements the REST API by offering advanced querying capabilities.
 
-⚙️ Celery
+<h3>⚙️ Celery</h3>
 
 Purpose:
+
 A distributed task queue used to handle asynchronous and background processes.
 In This Project:
 
@@ -367,10 +373,12 @@ In This Project:
   
   - Improves performance by offloading time-consuming tasks from the main server.
 
-⚡ Redis
+<h3>⚡ Redis</h3>
 
 Purpose:
+
 An in-memory data store used for caching, session storage, and message brokering.
+
 In This Project:
 
   - Works as a Celery message broker for task management.
@@ -379,10 +387,12 @@ In This Project:
   
   - Stores temporary session data for faster access.
 
-🐳 Docker
+<h3>🐳 Docker</h3>
 
 Purpose:
+
 A containerization platform that allows developers to package the application with all its dependencies into portable containers for consistent environments.
+
 In This Project:
 
   - Ensures consistent development and production environments.
@@ -391,10 +401,12 @@ In This Project:
   
   - Helps maintain isolated services (e.g., Django, PostgreSQL, Redis).
 
-🔁 CI/CD Pipelines (GitHub Actions / Jenkins)
+<h3>🔁 CI/CD Pipelines (GitHub Actions / Jenkins)</h3>
 
 Purpose:
+
 Continuous Integration and Continuous Deployment (CI/CD) automate testing, building, and deployment processes.
+
 In This Project:
 
   - Automatically tests code and deploys changes to the development or production environment.
@@ -411,10 +423,10 @@ In This Project:
   
   and hosts.
 
-🧑‍💻 1. Users
+   <b>🧑‍💻 1. Users</b>
 
-Description:
-Represents both guests and hosts who interact with the Airbnb Clone platform. Users can list properties, make bookings, and leave reviews.
+  Description:
+  Represents both guests and hosts who interact with the Airbnb Clone platform. Users can list properties, make bookings, and leave reviews.
 
 Key Fields:
 
@@ -436,10 +448,10 @@ Relationships:
   
   - One user can write multiple reviews.
 
-🏡 2. Properties
+  <b>🏡 2. Properties</b>
 
-Description:
-Represents the rental listings available on the platform. Each property is created and managed by a host (user).
+  Description:
+  Represents the rental listings available on the platform. Each property is created and managed by a host (user).
 
 Key Fields:
 
@@ -463,10 +475,10 @@ Relationships:
   
   -  One property can receive multiple reviews.
 
-🗓️ 3. Bookings
+  <b>🗓️ 3. Bookings</b>
 
-Description:
-Represents a reservation made by a guest for a specific property during a given time period.
+  Description:
+  Represents a reservation made by a guest for a specific property during a given time period.
 
 Key Fields:
 
@@ -490,10 +502,10 @@ Relationships:
   
   - A booking can have one associated payment.
 
-💳 4. Payments
+  <b>💳 4. Payments</b>
 
-Description:
-Tracks payment transactions related to bookings. It ensures all financial transactions are securely recorded and linked to their respective bookings.
+  Description:
+  Tracks payment transactions related to bookings. It ensures all financial transactions are securely recorded and linked to their respective bookings.
 
 Key Fields:
 
@@ -515,10 +527,10 @@ Relationships:
   
   - One booking can have one payment record.
 
-⭐ 5. Reviews
+  <b>⭐ 5. Reviews</b>
 
-Description:
-Represents feedback provided by guests after staying at a property. Reviews contribute to trust and property quality ratings.
+  Description:
+  Represents feedback provided by guests after staying at a property. Reviews contribute to trust and property quality ratings.
 
 Key Fields:
 
@@ -542,23 +554,23 @@ Relationships:
 
 <h2>4. Feature Breakdown</h2>
 
-👤 1. User Management
+  <b>👤 1. User Management</b>
 
 This feature allows users to register, log in, and manage their profiles securely. It includes authentication, authorization, and profile updates, ensuring data privacy and role-based access (e.g., guest or host). This foundation enables personalized experiences and secure access control across the platform.
 
-🏡 2. Property Management
+  <b>🏡 2. Property Management</b>
 
 Hosts can list, update, and remove properties they own through this feature. Each property includes details such as location, price, description, and availability. This functionality ensures an organized property catalog that helps guests easily find suitable accommodations.
 
-🗓️ 3. Booking System
+  <b>🗓️ 3. Booking System</b>
 
 The booking system enables guests to reserve available properties for specific dates. It handles check-in and check-out information, booking statuses, and prevents double-booking conflicts. This feature ensures smooth and reliable reservation management for both hosts and guests.
 
-💳 4. Payment Processing
+  <b>💳 4. Payment Processing</b>
 
 This module integrates secure payment gateways to handle transactions for bookings. It records payment details, transaction statuses, and supports multiple payment methods. This feature ensures safe and transparent financial operations between guests and hosts.
 
-⭐ 5. Review System
+  <b>⭐ 5. Review System</b>
 
 Guests can provide ratings and written feedback for properties they’ve stayed in. Reviews help future users make informed decisions and promote trust in the platform. This feature enhances the credibility and user engagement of the application.
 
@@ -566,7 +578,7 @@ Guests can provide ratings and written feedback for properties they’ve stayed 
 
 Ensuring the security of the Airbnb Clone Project’s backend APIs is essential to protect sensitive user data, maintain system integrity, and prevent unauthorized access. The project integrates multiple layers of security to safeguard communication, data, and transactions across the system.
 
-🪪 1. Authentication
+  <b>🪪 1. Authentication</b>
 
 Description:
 Authentication verifies the identity of users accessing the API using secure mechanisms such as JWT (JSON Web Tokens) or OAuth 2.0.
@@ -574,7 +586,7 @@ Authentication verifies the identity of users accessing the API using secure mec
 Importance:
 It ensures that only registered users can access protected endpoints, preventing impersonation and unauthorized access to user data and account information.
 
-🧩 2. Authorization
+   <b>🧩 2. Authorization</b>
 
 Description:
 Authorization defines what authenticated users are allowed to do. Role-based access control (RBAC) is implemented to manage permissions — for example, differentiating between guests, hosts, and administrators.
@@ -582,7 +594,7 @@ Authorization defines what authenticated users are allowed to do. Role-based acc
 Importance:
 It prevents users from performing actions beyond their access level, such as one guest trying to edit another host’s property details.
 
-🧱 3. Data Encryption
+  <b>🧱 3. Data Encryption</b>
 
 Description:
 Sensitive data such as passwords and payment details are encrypted both in transit (using HTTPS/TLS) and at rest (using hashing and encryption algorithms like bcrypt).
@@ -590,7 +602,7 @@ Sensitive data such as passwords and payment details are encrypted both in trans
 Importance:
 Encryption protects personal information from being exposed or intercepted by attackers during communication or data breaches.
 
-🚫 4. Rate Limiting
+  <b>🚫 4. Rate Limiting</b>
 
 Description:
 Rate limiting restricts the number of API requests a user or IP address can make in a given timeframe.
@@ -598,7 +610,7 @@ Rate limiting restricts the number of API requests a user or IP address can make
 Importance:
 It helps protect against DDoS attacks, brute-force login attempts, and excessive API calls that could degrade system performance.
 
-🧠 5. Input Validation & Sanitization
+  <b>🧠 5. Input Validation & Sanitization</b>
 
 Description:
 All incoming data is validated and sanitized to prevent SQL injection, cross-site scripting (XSS), and other injection-based attacks.
@@ -606,7 +618,7 @@ All incoming data is validated and sanitized to prevent SQL injection, cross-sit
 Importance:
 It ensures that the application only processes safe and expected data, maintaining database integrity and preventing malicious exploits.
 
-🧾 6. Secure Payment Handling
+  <b>🧾 6. Secure Payment Handling</b>
 
 Description:
 The system integrates with trusted third-party payment gateways like Stripe or PayPal and never stores raw credit card information.
@@ -614,7 +626,7 @@ The system integrates with trusted third-party payment gateways like Stripe or P
 Importance:
 This guarantees compliance with PCI-DSS standards and protects users’ financial data from exposure or fraud.
 
-🧍 7. Session Management
+  <b>🧍 7. Session Management</b>
 
 Description:
 Sessions are managed using secure, time-limited tokens with automatic expiration and renewal mechanisms.
