@@ -1,4 +1,4 @@
-#both ProDev Frontend and Backend  Readme docs content in this
+#both ALX ProDev Frontend(ALX_FE) and Backend(ALX_BE) Readme docs content in this
 
 <h1>#ALX_FE airbnb-clone-project</h1>
 <hr>
