@@ -524,3 +524,123 @@ Relationships:
   - A review is written by one user (guest).
   
   - A review is associated with one property.
+
+<h2>4. Feature Breakdown</h2>
+
+👤 1. User Management
+
+This feature allows users to register, log in, and manage their profiles securely. It includes authentication, authorization, and profile updates, ensuring data privacy and role-based access (e.g., guest or host). This foundation enables personalized experiences and secure access control across the platform.
+
+🏡 2. Property Management
+
+Hosts can list, update, and remove properties they own through this feature. Each property includes details such as location, price, description, and availability. This functionality ensures an organized property catalog that helps guests easily find suitable accommodations.
+
+🗓️ 3. Booking System
+
+The booking system enables guests to reserve available properties for specific dates. It handles check-in and check-out information, booking statuses, and prevents double-booking conflicts. This feature ensures smooth and reliable reservation management for both hosts and guests.
+
+💳 4. Payment Processing
+
+This module integrates secure payment gateways to handle transactions for bookings. It records payment details, transaction statuses, and supports multiple payment methods. This feature ensures safe and transparent financial operations between guests and hosts.
+
+⭐ 5. Review System
+
+Guests can provide ratings and written feedback for properties they’ve stayed in. Reviews help future users make informed decisions and promote trust in the platform. This feature enhances the credibility and user engagement of the application.
+
+<h2>5. API Security </h2>
+
+Ensuring the security of the Airbnb Clone Project’s backend APIs is essential to protect sensitive user data, maintain system integrity, and prevent unauthorized access. The project integrates multiple layers of security to safeguard communication, data, and transactions across the system.
+
+🪪 1. Authentication
+
+Description:
+Authentication verifies the identity of users accessing the API using secure mechanisms such as JWT (JSON Web Tokens) or OAuth 2.0.
+
+Importance:
+It ensures that only registered users can access protected endpoints, preventing impersonation and unauthorized access to user data and account information.
+
+🧩 2. Authorization
+
+Description:
+Authorization defines what authenticated users are allowed to do. Role-based access control (RBAC) is implemented to manage permissions — for example, differentiating between guests, hosts, and administrators.
+
+Importance:
+It prevents users from performing actions beyond their access level, such as one guest trying to edit another host’s property details.
+
+🧱 3. Data Encryption
+
+Description:
+Sensitive data such as passwords and payment details are encrypted both in transit (using HTTPS/TLS) and at rest (using hashing and encryption algorithms like bcrypt).
+
+Importance:
+Encryption protects personal information from being exposed or intercepted by attackers during communication or data breaches.
+
+🚫 4. Rate Limiting
+
+Description:
+Rate limiting restricts the number of API requests a user or IP address can make in a given timeframe.
+
+Importance:
+It helps protect against DDoS attacks, brute-force login attempts, and excessive API calls that could degrade system performance.
+
+🧠 5. Input Validation & Sanitization
+
+Description:
+All incoming data is validated and sanitized to prevent SQL injection, cross-site scripting (XSS), and other injection-based attacks.
+
+Importance:
+It ensures that the application only processes safe and expected data, maintaining database integrity and preventing malicious exploits.
+
+🧾 6. Secure Payment Handling
+
+Description:
+The system integrates with trusted third-party payment gateways like Stripe or PayPal and never stores raw credit card information.
+
+Importance:
+This guarantees compliance with PCI-DSS standards and protects users’ financial data from exposure or fraud.
+
+🧍 7. Session Management
+
+Description:
+Sessions are managed using secure, time-limited tokens with automatic expiration and renewal mechanisms.
+
+Importance:
+This prevents session hijacking and ensures that old sessions cannot be reused after logout or timeout.
+
+<h2>6. CI/CD Pipeline </h2>
+
+🚀 What is CI/CD?
+
+Continuous Integration (CI) is the practice of frequently merging code changes into a shared repository, where automated builds and tests are executed.
+Continuous Deployment (CD) takes this a step further by automatically deploying successful builds to staging or production environments.
+
+Together, CI/CD pipelines help maintain code quality, detect bugs early, and streamline the release process.
+
+💡 Why CI/CD is Important
+
+  - Faster Development Cycles: Automating builds and tests reduces manual effort, allowing developers to deliver new features and fixes quickly.
+  
+  - Improved Code Quality: Automated testing ensures that every change is verified before being merged, reducing the chance of introducing bugs.
+  
+  - Consistency and Reliability: The same automated process handles each build, reducing human error and ensuring predictable deployments.
+  
+  - Continuous Feedback: Developers receive instant feedback on build and test results, promoting quick iteration and improvement.
+  
+  -  Scalability: The pipeline can easily adapt as the project grows, integrating new services, test environments, and deployment strategies.
+
+🧰 Tools Used in the CI/CD Pipeline
+
+GitHub Actions:
+Used to automate workflows for testing, building, and deploying the application directly from the GitHub repository.
+
+Docker:
+Ensures consistent environments by containerizing the application, making it easy to build, test, and deploy across different systems.
+
+Jenkins (Optional Alternative):
+An open-source automation server that can manage complex CI/CD workflows for large-scale deployments.
+
+Heroku / AWS / Render (Deployment Services):
+Used to automatically deploy the backend and frontend applications to a live environment after successful builds.
+
+Testing Frameworks (e.g., Jest, PyTest):
+Integrated into the CI pipeline to ensure all code passes predefined tests before merging or deployment.
