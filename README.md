@@ -348,7 +348,7 @@ In This Project:
   
   - Works closely with Django ORM for database operations.
 
-H3>🧩 GraphQL</h3>
+<h3>🧩 GraphQL</h3>
 
 Purpose:
 
