@@ -630,17 +630,19 @@ Together, CI/CD pipelines help maintain code quality, detect bugs early, and str
 
 🧰 Tools Used in the CI/CD Pipeline
 
-GitHub Actions:
-Used to automate workflows for testing, building, and deploying the application directly from the GitHub repository.
+  GitHub Actions:
+    Used to automate workflows for testing, building, and deploying the application directly from the GitHub repository.
+  
+  Docker:
+    Ensures consistent environments by containerizing the application, making it easy to build, test, and deploy across different systems.
+  
+  Jenkins (Optional Alternative):
+    An open-source automation server that can manage complex CI/CD workflows for large-scale deployments.
+  
+  Heroku / AWS / Render (Deployment Services):
+    Used to automatically deploy the backend and frontend applications to a live environment after successful builds.
+  
+  Testing Frameworks (e.g., Jest, PyTest):
+    Integrated into the CI pipeline to ensure all code passes predefined tests before merging or deployment.
 
-Docker:
-Ensures consistent environments by containerizing the application, making it easy to build, test, and deploy across different systems.
 
-Jenkins (Optional Alternative):
-An open-source automation server that can manage complex CI/CD workflows for large-scale deployments.
-
-Heroku / AWS / Render (Deployment Services):
-Used to automatically deploy the backend and frontend applications to a live environment after successful builds.
-
-Testing Frameworks (e.g., Jest, PyTest):
-Integrated into the CI pipeline to ensure all code passes predefined tests before merging or deployment.
